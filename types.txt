@@ -1,0 +1,32 @@
+1. number ( 1, 4.5, -10 ) 
+all numbers.
+
+2. string ( 'Hello', "Hello", `Hello` ) 
+all text values.
+
+3. boolean ( true, false )
+
+4. object ( { name: "Hadar", gender: "Male" } ) 
+any javascript object, more specific types of object are possible.
+
+5. array ( [], string[], number[], boolean[], etc ) 
+array can be specified about the type of items it will contain.
+
+
+* TS ONLY( NOT KNOWN BY JS ) *
+
+6. tuple ( [1, 2] ) 
+it works similiar to array but can be more specific about which index should hold what type.
+
+7. enum ( enum Role { ADMIN = "ADMIN", READ_ONLY = 5.5, AUTHOR = 10 } )
+enum is useful for conditions, a global data storage for checking if some value is stored in an enum
+IMPORTANT: 
+* enum has a behavior of setting incremented values according to the first key by default, 
+in the example above, if the "ADMIN" key was holding 0 and the other keys were not holding any values,
+their values were initialized according to the previous key's value ( READ_ONLY = 1 and AUTHOR = 2 ).
+
+* enum works only for numeric values, if I will try to store anything besides a string or a number( boolean, object, etc )
+I will get the following error: ERROR: Computed values are not permitted in an enum with string valued members
+
+8. any ( * )
+any means that value's type can be anything, should be used not so often because it takes away all the advantages of TS.

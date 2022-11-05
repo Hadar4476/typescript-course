@@ -1,0 +1,2 @@
+To compile a typescript file to javascript, run:
+"tsc <file's name>"

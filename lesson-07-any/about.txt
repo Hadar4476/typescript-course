@@ -1,0 +1,3 @@
+This lesson is about any type in TS
+
+any should be used in rare cases as it is taking out all the advanteges of TS, using types in TS should explicit.

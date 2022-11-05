@@ -1,0 +1,3 @@
+This lesson is about generics in TS
+
+generics is a concept for setting a generic type for a function

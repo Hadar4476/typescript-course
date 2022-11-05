@@ -1,0 +1,3 @@
+This lesson is about alias in TS
+
+alias is a way for storing union types in a global type.

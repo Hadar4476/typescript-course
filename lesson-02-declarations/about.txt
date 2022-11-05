@@ -1,0 +1,4 @@
+This lesson is about declarations in typescript.
+
+It shows how you can assign a value on declaration of a variable and how that value is simply bounded to it.
+Typescript highlight errors if a certain type of a value is about to change, by not assigning a type and just declaring a value and by do assigning a type

@@ -1,0 +1,4 @@
+This lesson is about enums in TS
+
+Enums are useful for conditions, a global data storage for checking if some value is stored in an enum
+IMPORTANT: enum has a behavior of setting incremented values according to the first key by default.

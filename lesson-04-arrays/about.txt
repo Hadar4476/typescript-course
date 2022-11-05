@@ -1,0 +1,3 @@
+This lesson is about arrays in TS
+
+It shows how arrays can be declared and how typescript highlights certain errors about type's methods
