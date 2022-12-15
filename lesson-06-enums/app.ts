@@ -1,3 +1,9 @@
+enum Animals {
+  DOG,
+  CAT,
+  RABBIT,
+} // default values: 0, 1, 2
+
 enum Role {
   ADMIN = "ADMIN",
   READ_ONLY = 5.5,
