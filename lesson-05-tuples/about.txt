@@ -1,4 +1,4 @@
 This lesson is about tuples in TS
 
-Tuples are used for creating an array with specific types at specific indexes, so it good for situations where
+Tuples are used for creating an array with specific types at specific indexes and a fixed length, so it good for situations where
 the array is expected to hold specific values at a certain index
