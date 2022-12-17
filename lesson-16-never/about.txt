@@ -1,0 +1,9 @@
+This lesson is about the never type in TS.
+
+The "never" type is a type which describes a situation which will never occure.
+If used with configuring a function type, basically indicating that this function will never return anything.
+The "never" type must not have a reachable end point.
+
+Diffrence between "never" and "void":
+- https://medium.com/swlh/whats-the-difference-between-never-and-void-in-typescript-16f6629bfcdc
+- https://www.zhenghao.io/posts/ts-never

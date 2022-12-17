@@ -1,0 +1,8 @@
+This lesson is about callback type in TS.
+
+Callbacks types can be configured as functions types(see lesson 13 for more info).
+
+There is something which might seems like a mistake or a bug in TS callbacks.
+If a callback is configured to return nothing("void") and inside that callback execution - a return statement with a value is written,
+No error will occure because even due the statement was declared, TS will ignore this and make sure nothing is returned
+So the developer won't get "punished".

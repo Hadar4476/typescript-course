@@ -1,0 +1,9 @@
+This lesson is about the type of functions returns in TS
+
+If a value is returned from a function there is a syntax to determine what it's type would be.
+
+If a function does not have a return statement, the type which should be declared is "void".
+"void" is a type which is specific for function which determine that this function should not return anything.
+Using "void", a function can still use the return statement but can not return a value;
+
+If something undefined should be returned, it must be declared as a type of "undefined" and it MUST return something which is undefined.

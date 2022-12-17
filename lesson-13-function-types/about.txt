@@ -1,0 +1,6 @@
+This lesson is about the type function in TS.
+
+A variable of type function can be declared in 2 ways.
+
+- Assigning a type of "Function" which is non configurable and is basically global.
+- Configuring paramters + returned value's type.

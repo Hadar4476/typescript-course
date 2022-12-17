@@ -1,0 +1,8 @@
+This lesson is about the unkown type in TS.
+
+The "unkown" type have some simularity to the "any" type.
+
+- If a variable is of type "unkown", it can be reassigned to many types, just like "any".
+- If a variable is of type "unkown" and is reassigned to another variable which holds a specific type definition, an error will get triggered,
+  Because even though it can be reassigned, it can be reassigned to anything. with "any" an error won't occure because it is more flexible.
+- Reassigning with a declared specific type can be done if a check is applied(if statement).
