@@ -1,0 +1,12 @@
+This lesson is about the options configuration of TS in the tsconfig.json file:
+
+- exclude: exclude files from being compiled.
+- include: include file which should get compiled.
+- target: the es version which should be compiled from TS
+- outDir: instead of compiling TS files to JS next to each other, place JS files in a destined location.
+- rootDir: specify a root folder.
+- allowJs: allow JS files to be placed with TS files in a project.
+- checkJs: allow type-checking on JS files.
+- lib: if commented out, TS will be aware of all the features included "target" option.
+       if is empty, will resolve in errors because TS will not know any JS features.
+- noEmitOnError: if set to true, will not compile any TS files to JS if any error on any file will occure.

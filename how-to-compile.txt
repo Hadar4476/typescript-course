@@ -1,2 +1,4 @@
-To compile a typescript file to javascript, run:
-"tsc <file's name>"
+- To compile a typescript file to javascript, run "tsc <file's name>".
+- To apply watch mode which compiles on save, run "tsc <file's name> -w".
+- To compile a whole project, run "tsc --init".
+- To apply watch mode to a whole project, run "tsc -w".

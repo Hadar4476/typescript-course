@@ -1,0 +1,13 @@
+How to debug files in VSCode:
+
+IMPORTANT NOTE:
+You can debug TS and JS files.
+
+- make sure the project is running on some server.
+- start the project
+- init a tsconfig.json file with "tsc --init"
+- in tsconfig.json file make sure the option "sourceMap" is "true"
+- compile and watch for TS files with "tsc -w"
+- press F5 or go to "Run" tab and click on "Start Debugging"
+- a folder with the name of ".vscode" and a json file named "launch.json" will be created.
+- in "launch.json", set the "url" option to the url which the project runs on.
