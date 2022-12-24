@@ -1,0 +1,1 @@
+Intersection types are types which hold more than 1 complex type.
